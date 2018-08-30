@@ -1,0 +1,30 @@
+<!--pages/more/more.wxml-->
+<view>
+  <view class='more-header'>
+    <text class="title {{showIntheater ? 'show' : 'normal'}}" bindtap='changeHandle' data-tab-id='intheater'>影片热映</text>
+    <text class="title {{showComingsoon ? 'show' : 'normal'}}" bindtap='changeHandle' data-tab-id='comingsoon'>即将上映</text>
+  </view>
+  <view class='more-lists'>
+    <scroll-view scroll-y class='movie-scroll' wx:if="{{showIntheater}}">
+      <block wx:for="{{intheater.movies}}">  
+        <view class='movie-content'>
+          <image class='more-img' src='{{item.images.small}}'></image>
+          <view class='desc'>   
+            <text class='title'>{{item.title}}</text>
+            <text class='dirs'>导演: {{item.allDirs}}</text>
+            <text class='casts'>主演: {{item.allCasts}}</text>
+            <text class='genres'>类型: {{item.allGenres}}</text>
+            <view class='grade'>
+              <image class='img star-{{item.rating.average}}'></image>
+              <text class='score'>{{item.rating.average}}</text>
+            </view>
+            <text class='count'>{{item.collect_count}}人想看</text>
+          </view> 
+          <view class='movie-buy'>
+            <text class='buy'>购票</text>
+          </view>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>

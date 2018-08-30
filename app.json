@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/search/search",
+    "pages/more/more",
+    "pages/grid/grid",
+    "pages/rating/rating",
+    "pages/details/details"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00f",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle":"#fff"
+  }
+}

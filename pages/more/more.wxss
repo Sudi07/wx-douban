@@ -1,0 +1,134 @@
+/* pages/more/more.wxss */
+.more-header {
+  display: flex;
+  flex-direction: row;
+   align-items: center; 
+  background: #fff;
+}
+.more-header .title {
+  flex: 1;
+  padding: 20rpx 0;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #d9d9d9;
+}
+.more-header .show {
+  color: lime;
+  border-bottom: 4rpx solid lime;
+}
+.normal {
+  color: #d9d9d9;
+  border-bottom: 4rpx solid #d9d9d9;
+}
+
+.movie-content {
+  display: flex;
+  flex-direction: row;
+  height: 340rpx;
+  background: #fff;
+  border-bottom: 4px solid #d9d9d9;
+}
+.more-img {
+  flex: 1;
+  position: absolute;
+  width: 200rpx;
+  height: 300rpx;
+   margin: 20rpx auto 10rpx 20rpx;  
+}
+.desc {
+  flex: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  top: 37rpx;
+  left: 250rpx; 
+}
+.movie-content .title {
+  flex: 1;
+  display: block;
+  font-size: 30rpx;
+  font-weight: 600;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+.movie-content .dirs, .movie-content .casts,.movie-content .genres{
+  flex: 1;
+  display: block;
+  width: 400rpx;
+  font-size: 28rpx;
+  color: #b8b8b8;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+.movie-content .grade {
+  flex: 1;
+}
+.movie-content .img {
+  width: 120rpx;
+  height: 10px;
+  background-image: url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 12rpx; */
+}
+.score {
+  color: #b8b8b8;
+  font-size: 25rpx;
+  /* left: 132rpx; */
+}
+.star-0 {
+  background-position: 0 -240rpx;
+}
+.star-1 {
+  background-position: 0 -216rpx;
+}
+.star-2 {
+  background-position: 0 -192rpx;
+}
+.star-3 {
+  background-position: 0 -168rpx;
+}
+.star-4 {
+  background-position: 0 -144rpx;
+}
+.star-5 {
+  background-position: 0 -120rpx;
+}
+.star-6 {
+  background-position: 0 -96rpx;
+}
+.star-7 {
+  background-position: 0 -72rpx;
+}
+.star-8 {
+  background-position: 0 -48rpx;
+}
+.star-9 {
+  background-position: 0 -24rpx;
+}
+.count {
+  display: block;
+  font-size: 25rpx;
+  color: #b9e3ea;
+}
+.moive-buy {
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+}
+.buy {
+  flex: 1;
+  line-height: 128px;
+  width: 100rpx;
+  height: 50rpx;
+  padding: 5rpx 20rpx;
+  font-size: 25rpx;
+  border: 1rpx solid #a4deee;
+  color: #a4deee;
+  margin-right: 8rpx;
+  border-radius: 20%;
+}

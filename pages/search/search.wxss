@@ -1,0 +1,53 @@
+/* pages/search/search.wxss */
+.search-movie {
+  display: flex;
+  background: #fff;
+  padding: 20rpx;
+  flex-direction: row;
+  align-items: center;
+}
+.search-icon {
+  margin-right: 20rpx;
+}
+.search-input {
+  flex: 1;
+  font-size: 28rpx;
+}
+.search-cancle{
+  font-size: 32rpx;
+}
+.search-list {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+}
+.movie-wrapper{
+  background: white;
+  padding: 20rpx 30rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20rpx;
+}
+.poster {
+  width: 100rpx;
+  height: 130rpx;
+  margin-right: 20rpx;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.total .title, .desc {
+  font-size: 32rpx;
+  font-weight: 600;
+  width: 560rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.desc {
+  margin-top: 30rpx;
+  font-weight: 500;
+  font-size: 28rpx;
+}

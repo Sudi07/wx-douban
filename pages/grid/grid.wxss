@@ -1,0 +1,31 @@
+/* pages/grid/grid.wxss */
+@import "/pages/rating/rating.wxss";
+.grid-wrapper {
+   display: inline-block;
+}
+.grid-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20rpx;
+}
+.grid-content .poster {
+  width: 200rpx;
+  height: 300rpx;
+}
+.grid-content .title, .grid-content .wish-count {
+  width: 200rpx;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 10rpx;
+  text-align: center;
+}
+.title {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.wish-count {
+  font-size: 28rpx;
+  font-weight: 400;
+  color: black;
+}

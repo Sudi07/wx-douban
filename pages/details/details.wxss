@@ -1,0 +1,92 @@
+/* pages/details/details.wxss */
+
+.details-title {
+  display: block;
+  width: 300rpx;
+  height: 450rpx;
+  margin: 25rpx auto;
+}
+.content {
+  background-color: #fff;
+  height: 9999rpx; 
+}
+.details-content {
+  display: flex;
+  flex-direction: row;
+  height: 180rpx;
+  padding: 30rpx 20rpx;
+}
+.details-content .left {
+  flex: 2;
+}
+.left .title {
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.left .left, .context, .alias, .country {
+  display: block;
+  width: 450rpx;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+.left .context, .alias, .country {
+  font-size: 30rpx;
+  color: #a6a5a5;
+}
+.content .right {
+  width: 130rpx;
+  height: 130rpx;
+  border: 2rpx solid #d0d0d0;
+  margin: auto auto;
+}
+.right-content {
+  text-align: center;
+  padding: 7rpx;
+}
+.right .num, .stars, .figure {
+  display: block;
+}
+.right .stars {
+  width: 120rpx;
+  height: 28rpx;
+  background-image: url(https://img3.doubanio.com/f/shire/680a4bc4c384199245b080c7104da5be8ed717d3/pics/rating_icons/ic_rating_m.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.right .num {
+  font-weight: 600;
+}
+.right .figure {
+  font-size: 24rpx;
+}
+.star-0 {
+  background-position: 0 -240rpx;
+}
+.star-1 {
+  background-position: 0 -216rpx;
+}
+.star-2 {
+  background-position: 0 -192rpx;
+}
+.star-3 {
+  background-position: 0 -168rpx;
+}
+.star-4 {
+  background-position: 0 -144rpx;
+}
+.star-5 {
+  background-position: 0 -120rpx;
+}
+.star-6 {
+  background-position: 0 -96rpx;
+}
+.star-7 {
+  background-position: 0 -72rpx;
+}
+.star-8 {
+  background-position: 0 -48rpx;
+}
+.star-9 {
+  background-position: 0 -24rpx;
+}

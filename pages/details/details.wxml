@@ -1,0 +1,28 @@
+<!--pages/details/details.wxml-->
+<image class='details-title' src='{{information.image}}'></image>
+<view class='content'>
+  <view class='details-content'>
+    <view class='left'>
+      <text class='title'>{{information.name}}</text>
+      <text class='context'>{{information.genre}}</text>
+      <text class='alias'>原名：{{information.ak}}</text>
+      <text class='country'>国家：{{information.country}}</text>
+    </view>
+    <view class='right'>
+      <view class='right-content'>
+        <text class='num'>{{information.score}}</text>
+        <image class='stars star-{{information.score}}'></image>
+        <text class='figure'>{{information.fg}}人</text>
+      </view>
+    </view>
+  </view>
+  <view class='buttom'>
+    <view class='see'></view>
+    <view class='saw'></view>
+  </view>
+  <view class='summary'>
+    <text>简介</text>
+    <text class='scon'></text>
+    <text class='more'> </text>
+  </view>
+</view>
